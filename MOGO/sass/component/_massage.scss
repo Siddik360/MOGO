@@ -1,0 +1,49 @@
+/*====================================================
+                    menu part start
+=====================================================*/ 
+#massage{
+    padding:70px 0;
+    background: #f8f8f8;
+    .mass_icon{
+        img{
+            padding: 38px 42px;
+             border: 2px solid #95e1d3;
+        }
+    }
+    .mass_text{
+        p{
+            @include fs($para,25px,300,$ff3);
+            font-style: italic;
+        }
+        h6{
+            @include fs($head,24px,300,$ff2);
+            padding-left: 56px;
+            position: relative;
+            &:after{
+                @include after_lb(0,0,50px,3px,#f38181);
+            }
+        }
+    }
+    .prev_arr{
+        font-size: 20px;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #cccccc;
+        font-size: 20px;
+        z-index: 999;
+    }
+
+    .nex_arr{
+        position: absolute;
+        right: 50px;
+        top: 50%;
+        width: auto;
+        color: #cccccc;
+        font-size: 20px;
+    }
+}
+/*====================================================
+                    menu part end
+=====================================================*/ 

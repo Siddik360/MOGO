@@ -1,0 +1,49 @@
+/*====================================================
+                    menu part start
+=====================================================*/ 
+#service{
+    padding: 100px 0;
+    .common_head{
+        h5{
+            @include fs($head, 24px, 400, $ff2);
+            margin-bottom: 13px;
+        }
+        h4{
+            @include fs($head, 30px, 700, $ff1);
+            position: relative;
+            display: inline-block;
+            &:after{
+                @include after_lb(84px,-40px,60px,3px,#f38181)
+            }
+        }
+    }
+
+    .serv_main{
+        margin-top: 100px;
+        .serv_text{
+            margin-bottom: 100px;
+            .serv_img{
+                position: relative;
+                img{
+                    position: absolute;
+                    left: 0;
+                    top: 4px;
+                }
+            }
+            h4{
+                margin-left: 50px;
+                @include fs($head, 14px, 400, $ff1);
+            }
+            p{
+                margin-left: 50px;
+                @include fs($para, 15px, 400, $ff3);
+                span{
+                    display: block;
+                }
+            }
+        }
+    }
+}
+/*====================================================
+                    menu part end
+=====================================================*/ 

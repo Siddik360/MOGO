@@ -1,0 +1,28 @@
+/*====================================================
+                    menu part start
+=====================================================*/ 
+#count{
+    // padding: 90px 0;
+    background: #95e1d3;
+    .Count_main{
+        .bord{
+            max-width: 20%;
+            border-left: 1px solid yellow;
+            padding: 87px 36px;
+            &:nth-child(5){
+                border-right: 1px solid yellow;
+            }
+            .count_text{
+                h2{
+                    @include fs(#fff, 72px, 700, $ff1);
+                }
+                p{
+                    @include fs(#fff, 14px, 400, $ff1);
+                }
+            }
+        }
+    }
+}
+/*====================================================
+                    menu part end
+=====================================================*/ 

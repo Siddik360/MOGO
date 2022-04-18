@@ -1,0 +1,35 @@
+/*====================================================
+                    menu part start
+=====================================================*/ 
+#banner{
+    padding: 235px 0 224px;
+    .banner_text{
+        h4{
+            @include fs(#fff, 72px, 400, $ff2);
+            margin-bottom: 30px;
+        }
+        h1{
+            text-align: center;
+            @include fs(#fff, 150px, 700, $ff1);
+            text-transform: uppercase;
+           span{
+               display: block;
+           }
+           
+        }
+        a{
+            padding: 8px 26px;
+            border: 2px solid #fff;
+            @include fs(#fff, 14px,400, $ff1);
+            margin-top: 90px;
+            transition: all linear .3s;
+            &:hover{
+                background: rgb(71, 156, 206);
+                border-color: rgb(71, 156, 206);
+            }
+        }
+    }
+}
+/*====================================================
+                    menu part end
+=====================================================*/ 

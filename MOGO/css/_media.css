@@ -1,0 +1,824 @@
+@media (max-width: 575.99px){
+    /* banner part start */
+    #banner {
+        padding: 104px 0 40px;
+    }
+    #banner .banner_text h1 {
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+    #banner .banner_text h1 span {
+        display: inline-block;
+    }
+    #banner .banner_text h4 {
+        font-size: 26px;
+        margin-bottom: 13px;
+    }
+    #banner .banner_text a {
+        margin-top: 30px;
+    }
+    /* banner part start */
+    /* menu part start */
+    #service .serv_main .serv_text .serv_img img {
+        left: 21px;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar-brand {
+        margin-left: 20px;
+    }
+
+    .menu .main_menu ul li a {
+        line-height: 37px;
+        margin:0;
+        background: green;
+        width: 100%;
+        padding-left: 20px;
+    }
+    .menu .main_menu ul li a:hover {
+        background: #fff;
+        color: black;
+    }
+
+    .menu .main_menu ul li a::after {
+        display: none;
+    }
+
+    .ms-auto {
+        margin-top: 14px;
+    }
+
+    .navbar-brand {
+        line-height: 54px;
+    }
+
+    .menu {
+        height: inherit;
+        background: green;
+    }
+
+    .fa-solid, .fas {
+        color: #fff;
+        margin-right: 8px;
+        line-height: inherit;
+    }
+    /* menu part end */
+    /* about part start */
+    #about {
+        padding: 40px 0;
+    }
+
+    #about .common_head h5 {
+        margin-bottom: 7px;
+    }
+
+    #about .common_head h4::after {
+        bottom: -14px;
+    }
+
+    #about .common_head p {
+        font-size: 12px;
+        margin-top: 30px;
+    }
+
+    #about .about_main {
+        margin-top: 50px;
+    }
+
+    #about .about_main .about_img {
+        margin-bottom: 20px;
+    }
+
+
+    #count .Count_main .bord {
+        max-width: inherit;
+        border-left: none;
+        padding: 18px 0px;
+    }
+
+    #count .Count_main .bord .count_text h2 {
+        font-size: 30px;
+    }
+
+    #count .Count_main .bord .count_text p {
+        font-size: 12px;
+    }
+
+    #count .Count_main .bord:nth-child(5) {
+        border-right: none;
+    }
+    /* about part end */
+
+    /* service part start */
+    #service {
+        padding: 40px 0 0;
+    }
+
+    #service .serv_main {
+        margin-top: 56px;
+    }
+
+    #service .common_head h4::after {
+        left: 112px;
+        bottom: -12px;
+    }
+
+    #service .common_head h5 {
+        margin-bottom: 7px;
+    }
+
+    #service .serv_main .serv_text p,
+    #service .serv_main .serv_text h4 {
+        margin-left: 70px;
+    }
+
+    #service .serv_main .serv_text {
+        margin-bottom: 30px;
+    }
+    /* service part end */
+    /* massage part start */
+    #massage .mass_text p {
+        font-size: 17px;
+        padding: 15px 20px;
+        text-align: center;
+    }
+
+    #massage .mass_text h6 {
+        font-size: 21px;
+        padding-left: inherit;
+        text-align: center;
+        margin-top: -12px;
+    }
+
+    #massage .mass_text h6::after {
+        display: none;
+    }
+
+    #massage .prev_arr {
+        left: -2px;
+        top: 65%;
+        font-size: 22px;
+        z-index: 1;
+    }
+
+    #massage .nex_arr {
+        position: absolute;
+        right: -8px;
+        top: 61%;
+        width: auto;
+        color: #cccccc;
+        font-size: 22px;
+        /* display: none; */
+    }
+
+    #massage {
+        padding: 49px 0;
+    }
+
+    #massage .mass_icon img {
+        padding: 20px 20px;
+    }
+    /* massage part end */
+
+    /* team part start */
+    #team {
+        padding: 40px 0 40px;
+    }
+
+    .common_head p {
+        font-size: 12px;
+        margin-top: 21px;
+    }
+
+    .common_head h4::after {
+        bottom: -14px;
+    }
+
+    #team .team_main {
+        padding-top: 54px;
+    }
+
+    #team .team_main .team_text h4 {
+        margin-top: 12px;
+    }
+
+    #team .team_main .team_text p {
+        margin-bottom: 12px;
+    }
+    /* team part end */
+    /* work part start */
+
+
+    #work .common_head h5 {
+        margin-bottom: 7px;
+    }
+
+    #work .common_head h4::after {
+        bottom: -14px;
+    }
+
+    #work .common_head p {
+        font-size: 12px;
+        margin-top: 30px;
+        padding-left: 9px;
+        padding-right: 9px;
+    }
+    /* work part end */
+
+    /* work part start */
+    #work {
+        padding: 50px 0 50px;
+    }
+
+    #work .work_row .work_main {
+        width: 100%;
+    }
+
+    /* work part end */
+    /* footer part start */
+    #footer .foot_left .socail_icon ul li p {
+        font-size: 12px;
+        margin-right: 25px;
+    }
+
+    #footer .foot_left .socail_icon ul li a {
+        margin-right: 14px;
+        font-size: 17px;
+    }
+
+    #footer .foot_left form input {
+        width: 289px;
+        padding-right: 108px;
+    }
+
+    #footer .foot_left form button {
+        width: 100px;
+        right: 7px;
+        top: 0;
+    }
+    /* footer part end */
+}
+
+@media (min-width: 576px) and (max-width:767px){
+    /* menu part start */
+    .menu {
+        height: inherit;
+        position: sticky;
+        left: 0;
+        top: 0;
+        width: 100%;
+        z-index: 999;
+        background: green;
+    }
+
+    .navbar-brand {
+        line-height: 54px;
+    }
+
+    .fa-solid, .fas {
+        color: #fff;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .menu .main_menu ul li a {
+        line-height: 37px;
+        margin:0;
+        background: green;
+        width: 100%;
+        padding-left: 20px;
+    }
+
+    .menu .main_menu ul li a:hover {
+        background: #fff;
+        color: black;
+    }
+
+    .menu .main_menu ul li a::after {
+        display: none;
+    }
+
+
+    /* menu part end */
+
+    /* banner part start */
+    #banner {
+        padding: 80px 0 50px;
+    }
+
+    #banner .banner_text h4 {
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+
+    #banner .banner_text h1 {
+        font-size: 50px;
+    }
+
+    #banner .banner_text h1 span {
+        display: contents;
+    }
+
+    #banner .banner_text a {
+        padding: 8px 15px;
+        font-size: 14px;
+        margin-top: 30px;
+    }
+    /* banner part end */
+
+    /* about part start */
+    #about {
+        padding: 50px 0 0;
+    }
+
+    .common_head h5 {
+        margin-bottom: 10px;
+    }
+
+    .common_head h4::after {
+       bottom: -15px;
+    }
+
+    .common_head p {
+        font-size: 13px;
+        margin-top: 25px;
+    }
+
+    #about .about_main {
+        margin-top: 50px;
+    }
+
+    #about .about_main .about_img {
+        margin-bottom: 30px;
+    }
+    /* about part end */
+    /* count up start  */
+    #count .Count_main .bord {
+        border-left: none;
+        padding: 46px 0px;
+    }
+
+    #count .Count_main .bord:nth-child(5) {
+        border-right: none;
+    }
+
+    #count .Count_main .bord .count_text h2 {
+        font-size: 50px;
+    }
+    /* count up end */
+
+    /* service part start */
+    #service {
+        padding: 50px 0 20px;
+    }
+
+    #service .common_head h5 {
+        margin-bottom: 10px;
+    }
+
+    #service .common_head h4::after {
+        left: 111px;
+        bottom: -15px;
+    }
+
+    #service .serv_main .serv_text .serv_img img {
+        left: 44%;
+        top: -39px;
+    }
+
+    #service .serv_main .serv_text h4 {
+        margin-left: 0;
+        color: #333;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: "Montserrat", sans-serif;
+        text-align: center;
+    }
+
+    #service .serv_main .serv_text p {
+        margin-left: 0;
+        color: #333;
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Montserrat", sans-serif;
+        text-align: center;
+    }
+
+    #service .serv_main .serv_text {
+        margin-bottom: 70px;
+    }
+
+    #service .serv_main .ser_fif{
+        width: 50%;
+        max-width: 50%;
+    }
+    /* service part end */
+
+    /* massage part start */
+    #massage {
+        padding: 40px 0;
+        background: #f8f8f8;
+    }
+
+    #massage .mass_text p {
+        font-size: 18px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #massage .mass_icon img {
+        padding: 20px 20px;
+        border: 2px solid #95e1d3;
+    }
+
+    #massage .mass_text h6 {
+        padding-left: 0;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #massage .mass_text h6::after {
+        display: none;
+    }
+
+    #massage .prev_arr {
+        display: none;
+    }
+    /* massage part end */
+
+    /* team part start */
+    #team {
+        padding: 50px 0 50px;
+    }
+
+    #team .team_main .team_text h4 {
+        margin-top: 13px;
+    }
+
+    #team .team_main .team_text p {
+        margin-bottom: 10px;
+    }
+    /* team part end */
+
+    /* work part start */
+    #work {
+        padding: 50px 0 50px;
+    }
+
+    #work .common_head h5 {
+        margin-bottom: 10px;
+    }
+
+    #work .common_head h4::after {
+        bottom: -15px;
+    }
+
+    #work .common_head p {
+        font-size: 15px;
+        margin-top: 25px;
+    }
+
+    #work .work_row .work_main .work_img:hover img {
+        width: 15px;
+        cursor: pointer;
+    }
+
+    #work .work_row .work_main .work_img .overly .over_text h4 {
+        margin-top: 7px;
+    }
+    /* work part end */
+}
+
+
+@media (min-width: 768px) and (max-width:991px){
+    /* menu part start */
+    .menu {
+        height: inherit;
+        position: sticky;
+        left: 0;
+        top: 0;
+        width: 100%;
+        z-index: 999;
+        background: green;
+    }
+
+    .navbar-brand {
+        line-height: 54px;
+    }
+
+    .fa-solid, .fas {
+        color: #fff;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .menu .main_menu ul li a {
+        line-height: 37px;
+        margin:0;
+        background: green;
+        width: 100%;
+        padding-left: 20px;
+    }
+
+    .menu .main_menu ul li a::after {
+        display: none;
+    }
+
+    .menu .main_menu ul li a:hover {
+        background: #fff;
+        color: black;
+    }
+
+
+    /* menu part end */
+
+    /* banner part start */
+    #banner {
+        padding: 90px 0 80px;
+    }
+
+    #banner .banner_text h4 {
+        font-size: 55px;
+        margin-bottom: 25px;
+    }
+
+    #banner .banner_text h1 {
+        font-size: 75px;
+        font-weight: 700;
+    }
+
+    #banner .banner_text a {
+        padding: 8px 26px;
+        margin-top: 25px;
+    }
+
+    #about {
+        padding: 60px 0;
+    }
+
+    .common_head h4::after {
+        bottom: -30px;
+    }
+
+    .common_head p {
+        margin-top: 60px;
+    }
+
+    /* banner part end */
+    /* about part start */
+    #about .about_main {
+        margin-top: 50px;
+    }
+    /* about part end */
+
+    /* counter part start */
+    #count .Count_main .bord {
+        max-width: 20%;
+        border-left: none;
+        padding: 40px 1px;
+    }
+
+    #count .Count_main .bord:nth-child(5) {
+        border-right: none;
+    }
+    /* counter part end */
+
+    /* service part start */
+    #service {
+        padding: 50px 0 0;
+    }
+
+    #service .serv_main {
+        margin-top: 60px;
+    }
+
+    #service .common_head h4::after {
+        left: 110px;
+        bottom: -25px;
+    }
+
+    #service .serv_main .serv_text {
+        margin-bottom: 60px;
+    }
+
+   
+    /* service part end */
+
+    /* massage part start */
+    #massage {
+        padding: 60px 0;
+    }
+
+    #massage .mass_text p {
+        font-size: 15px;
+        text-align: center;
+        margin-left: 1px;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+
+    #massage .mass_icon img {
+        padding: 30px 30px;
+    }
+
+    .col-md-3 {
+        width: 100%;
+    }
+
+    .col-md-8 {
+        width: 100%;
+    }
+
+    #massage .mass_text h6 {
+        font-size: 18px;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    #massage .mass_text h6::after {
+        display: none;
+    }
+
+    /* massage part end */
+
+    /* work part start */
+    #work {
+        padding: 50px 0 50px;
+    }
+    /* work part  end*/
+
+    /* footer part start */
+    #footer .foot_right{
+        margin-left: 10px;
+    }
+
+    #footer .foot_mid .foot_img ul li p {
+        margin-left: 14px;
+        font-size: 12px;
+        text-transform: none;
+    }
+
+    #footer .foot_mid .foot_img ul li img {
+        margin-bottom: 20px;
+    }
+
+    #footer .foot_left form button {
+        right: -155px;
+    }
+    /* footer part end */
+}
+
+@media (min-width: 992px) and (max-width:1199px){
+    /* banner part start */
+    #banner .banner_text h1 {
+        font-size: 90px;
+    }
+
+    #banner .banner_text h4 {
+        font-size: 60px;
+        margin-bottom: 25px;
+    }
+
+    #banner .banner_text a {
+        margin-top: 40px;
+    }
+
+    #banner {
+        padding: 150px 0 90px;
+    }
+    /* banner part end */
+
+    /* about part start */
+    #about {
+        padding: 70px 0;
+    }
+
+    .common_head p {
+        margin-top: 60px;
+    }
+
+    .common_head h4::after {
+        bottom: -30px;
+    }
+
+    #about .about_main {
+        margin-top: 70px;
+    }
+    /* about part end */
+
+    /* service part start */
+    #service {
+        padding: 70px 0 0;
+    }
+
+    #service .common_head h4::after {
+        left: 109px;
+        bottom: -30px;
+    }
+
+    #service .serv_main .serv_text {
+        margin-bottom: 75px;
+    }
+
+
+    /* service part end */
+
+    /* massage part start */
+    .col-md-3 {
+        width: 100%;
+    }
+    .col-md-8 {
+        width: 80.7%;
+    }
+    #massage .mass_text p {
+        font-size: 20px;
+        margin-left: 108px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #massage .mass_text h6 {
+        font-size: 22px;
+        padding-left: 94px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #massage .mass_text h6::after {
+        left: 155px;
+    }
+
+    #massage .prev_arr {
+        z-index: 999;
+    }
+
+    #massage {
+        padding: 50px 0;
+    }
+    /* massage part end */
+
+    /* work part start */
+    #team {
+        padding: 70px 0 50px;
+    }
+
+    #work {
+        padding: 50px 0 70px;
+    }
+
+    #work .common_head p {
+        margin-top: 70px;
+    }
+
+    #work .common_head h4::after {
+        bottom: -30px;
+    }
+
+    #work .work_row {
+        margin-top: 70px;
+    }
+    /* work part end */
+
+    /* footer part start */
+    #footer .foot_left form button {
+        right: -79px;
+    }
+    /* footer part end */
+}
+
+@media (min-width: 1200px) and (max-width:1400px){
+    /* banner part start */
+    #banner .banner_text h1 {
+        font-size: 133px;
+    }
+
+    #banner .banner_text h4 {
+        margin-bottom: 25px;
+    }
+
+    #banner {
+        padding: 150px 0 130px;
+    }
+
+    #banner .banner_text a {
+        margin-top: 80px;
+    }
+    /* banner part end */
+
+    /* footer part start */
+
+    #footer .foot_left form input {
+        width: 365px;
+    }
+
+    #footer .foot_left form button {
+        right: 0px;
+    }
+    /* footer part end */
+}
